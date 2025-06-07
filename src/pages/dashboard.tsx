@@ -16,11 +16,11 @@ export function Dashboard() {
           </div>
 
           <div className="flex gap-4 justify-center mt-6">
-            <AnimatedButton size={"lg"} onClick={() => alert("Workout Started!")}>
-              Start Workout
+            <AnimatedButton size={"lg"} onClick={() => alert("Workout Started!")}> 
+              Начать тренировку
             </AnimatedButton>
-            <AnimatedButton size={"lg"} onClick={() => alert("Viewing Progress!")}>
-              View Progress
+            <AnimatedButton size={"lg"} onClick={() => alert("Viewing Progress!")}> 
+              Посмотреть прогресс
             </AnimatedButton>
           </div>
         </div>

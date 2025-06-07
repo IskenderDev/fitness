@@ -11,9 +11,9 @@ export function CardsCalendar() {
   return (
     <Card className="lg:max-w-[300px]">
       <CardHeader>
-        <CardTitle className="text-lg font-normal font-bebas-neue">Streak Days</CardTitle>
+        <CardTitle className="text-lg font-normal font-bebas-neue">Дней серии</CardTitle>
         <CardDescription>
-          You're on a streak! You have stayed on track with your diet for <strong>{streakDays}</strong> days in a row. Keep it up!
+          У вас серия! Вы придерживаетесь диеты уже <strong>{streakDays}</strong> дней подряд. Так держать!
         </CardDescription>
       </CardHeader>
       <CardContent className="p-1 flex justify-center">

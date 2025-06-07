@@ -7,22 +7,22 @@ export type Task = {
 export const tasks: Task[] = [
   {
     id: "1",
-    name: "10,000 steps",
+    name: "10 000 шагов",
     done: true
   },
   {
     id: "2",
-    name: "Drink 2L water",
+    name: "Выпить 2 л воды",
     done: false
   },
   {
     id: "3",
-    name: "Read for 30 minutes",
+    name: "Читать 30 минут",
     done: true
   },
   {
     id: "4",
-    name: "Meditate for 10 minutes",
+    name: "Медитировать 10 минут",
     done: false
   },
 ];

@@ -45,11 +45,11 @@ const data = [
 
 const chartConfig = {
   caloriesBurned: {
-    label: "Calories Burned",
+    label: "Сожжённые калории",
     color: "hsl(var(--primary))",
   },
   weightLost: {
-    label: "Weight Lost (kg)",
+    label: "Потеря веса (кг)",
     color: "hsl(var(--primary))",
   },
 } satisfies ChartConfig
@@ -58,12 +58,12 @@ export function CardsStatsWeight() {
   return (
     <Card className="w-full md:h-[237px]">
       <CardHeader className="flex flex-row items-center justify-between space-y-0">
-        <CardTitle className="text-lg font-normal font-bebas-neue">Weight Lost</CardTitle>
+        <CardTitle className="text-lg font-normal font-bebas-neue">Потеря веса</CardTitle>
       </CardHeader>
       <CardContent>
-        <div className="text-2xl font-bold">-2.3 kg</div>
+        <div className="text-2xl font-bold">-2.3 кг</div>
         <p className="text-xs text-muted-foreground">
-          +0.5kg compared to last month
+          +0.5кг по сравнению с прошлым месяцем
         </p>
         <ChartContainer config={chartConfig} className="mt-2 h-[80px] w-full">
           <BarChart data={data}>

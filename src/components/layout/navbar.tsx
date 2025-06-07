@@ -26,7 +26,7 @@ export const Navbar = () => {
       >
         <div>
           <a href="/" className="text-2xl font-bebas-neue">
-            Fitness - Dashboard
+            Фитнес – Дашборд
           </a>
         </div>
         <div className="flex lg:flex-1">

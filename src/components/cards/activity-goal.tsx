@@ -72,8 +72,8 @@ export function CardsActivityGoal() {
   return (
     <Card>
       <CardHeader>
-        <CardTitle className="text-lg font-normal font-bebas-neue">Move Goal</CardTitle>
-        <CardDescription>Set your daily activity goal.</CardDescription>
+        <CardTitle className="text-lg font-normal font-bebas-neue">Цель активности</CardTitle>
+        <CardDescription>Установите дневную цель активности.</CardDescription>
       </CardHeader>
       <CardContent>
         <div className="flex items-center justify-center space-x-2">
@@ -85,12 +85,12 @@ export function CardsActivityGoal() {
             disabled={goal <= 200}
           >
             <Minus />
-            <span className="sr-only">Decrease</span>
+            <span className="sr-only">Уменьшить</span>
           </Button>
           <div className="flex-1 text-center">
             <div className="text-5xl font-bold tracking-tighter">{goal}</div>
             <div className="text-[0.70rem] uppercase text-muted-foreground">
-              Calories/day
+              Калорий/день
             </div>
           </div>
           <Button
@@ -101,7 +101,7 @@ export function CardsActivityGoal() {
             disabled={goal >= 400}
           >
             <Plus />
-            <span className="sr-only">Increase</span>
+            <span className="sr-only">Увеличить</span>
           </Button>
         </div>
         <div className="mt-2 h-[35px]">

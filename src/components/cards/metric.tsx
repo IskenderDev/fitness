@@ -48,11 +48,11 @@ const data = [
 
 const chartConfig = {
   today: {
-    label: "Today",
+    label: "Сегодня",
     color: "hsl(var(--primary))",
   },
   average: {
-    label: "Average",
+    label: "Среднее",
     color: "hsl(var(--primary))",
   },
 } satisfies ChartConfig
@@ -61,9 +61,9 @@ export function CardsMetric() {
   return (
     <Card>
       <CardHeader>
-        <CardTitle className="text-lg font-normal font-bebas-neue">Exercise Minutes</CardTitle>
+        <CardTitle className="text-lg font-normal font-bebas-neue">Минуты упражнений</CardTitle>
         <CardDescription>
-          Your exercise minutes are ahead of where you normally are.
+          Ваше количество минут упражнений опережает обычный график.
         </CardDescription>
       </CardHeader>
       <CardContent className="pb-4">
