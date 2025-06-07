@@ -16,7 +16,7 @@ export function ToggleTheme() {
     >
       <Sun className="h-[1.5rem] w-[1.3rem] dark:hidden" color="#000" />
       <Moon className="hidden h-5 w-5 dark:block dark:text-white cursor-pointer" color="#fff" />
-      <span className="sr-only">Toggle theme</span>
+      <span className="sr-only">Переключить тему</span>
     </Button>
   );
 }

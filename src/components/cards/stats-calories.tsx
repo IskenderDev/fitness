@@ -45,11 +45,11 @@ const data = [
 
 const chartConfig = {
   caloriesBurned: {
-    label: "Calories Burned",
+    label: "Сожжённые калории",
     color: "hsl(var(--primary))",
   },
   weightLost: {
-    label: "Weight Lost (kg)",
+    label: "Потеря веса (кг)",
     color: "hsl(var(--primary))",
   },
 } satisfies ChartConfig
@@ -58,12 +58,12 @@ export function CardsStatsCalories() {
   return (
     <Card className="w-full md:h-[237px]">
       <CardHeader className="flex flex-row items-center justify-between space-y-0">
-        <CardTitle className="text-lg font-normal font-bebas-neue">Calories Burned</CardTitle>
+        <CardTitle className="text-lg font-normal font-bebas-neue">Сожжённые калории</CardTitle>
       </CardHeader>
       <CardContent className="pb-0">
-        <div className="text-2xl font-bold">1,500 kcal</div>
+        <div className="text-2xl font-bold">1,500 ккал</div>
         <p className="text-xs text-muted-foreground mb-4">
-          +15% compared to last week
+          +15% по сравнению с прошлой неделей
         </p>
         <ChartContainer config={chartConfig} className="h-[80px] w-full">
           <LineChart

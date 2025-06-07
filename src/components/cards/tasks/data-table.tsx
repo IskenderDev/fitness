@@ -62,13 +62,13 @@ export function CardsDataTable() {
   return (
     <Card>
       <CardHeader>
-        <CardTitle className="text-lg font-normal font-bebas-neue">Daily Goals</CardTitle>
-        <CardDescription>Manage your tasks efficiently.</CardDescription>
+        <CardTitle className="text-lg font-normal font-bebas-neue">Ежедневные цели</CardTitle>
+        <CardDescription>Управляйте своими задачами эффективно.</CardDescription>
       </CardHeader>
       <CardContent>
         <div className="mb-4 flex items-center gap-4">
           <Input
-            placeholder="Filter tasks..."
+            placeholder="Фильтр задач..."
             value={(table.getColumn("name")?.getFilterValue() as string) ?? ""}
             onChange={(event) =>
               table.getColumn("name")?.setFilterValue(event.target.value)
@@ -126,13 +126,13 @@ export function CardsDataTable() {
                       colSpan={columns.length}
                       className="h-24 text-center"
                     >
-                      No results.
+                      Нет результатов.
                     </TableCell>
                   </TableRow>
                 )}
               </TableBody>
             </Table>
-            : <p className="text-center">Loading tasks...</p>}
+            : <p className="text-center">Загрузка задач...</p>}
         </div>
       </CardContent>
     </Card>
